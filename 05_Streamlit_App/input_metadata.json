@@ -1,0 +1,310 @@
+{
+    "Diabetes": {
+        "gender": {
+            "type": "categorical",
+            "options": [
+                "Female",
+                "Male",
+                "Other"
+            ]
+        },
+        "age": {
+            "type": "numerical",
+            "minimum": 0.08,
+            "maximum": 80.0,
+            "default": 43.0
+        },
+        "hypertension": {
+            "type": "numerical",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.0
+        },
+        "heart_disease": {
+            "type": "numerical",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "default": 0.0
+        },
+        "smoking_history": {
+            "type": "categorical",
+            "options": [
+                "No Info",
+                "current",
+                "ever",
+                "former",
+                "never",
+                "not current"
+            ]
+        },
+        "bmi": {
+            "type": "numerical",
+            "minimum": 10.01,
+            "maximum": 95.69,
+            "default": 27.32
+        },
+        "HbA1c_level": {
+            "type": "numerical",
+            "minimum": 3.5,
+            "maximum": 9.0,
+            "default": 5.8
+        },
+        "blood_glucose_level": {
+            "type": "numerical",
+            "minimum": 80.0,
+            "maximum": 300.0,
+            "default": 140.0
+        }
+    },
+    "Heart Disease": {
+        "age": {
+            "type": "numerical",
+            "minimum": 29.0,
+            "maximum": 77.0,
+            "default": 56.0
+        },
+        "sex": {
+            "type": "categorical",
+            "options": [
+                "0",
+                "1"
+            ]
+        },
+        "cp": {
+            "type": "categorical",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        "trestbps": {
+            "type": "numerical",
+            "minimum": 94.0,
+            "maximum": 200.0,
+            "default": 130.0
+        },
+        "chol": {
+            "type": "numerical",
+            "minimum": 126.0,
+            "maximum": 564.0,
+            "default": 244.5
+        },
+        "fbs": {
+            "type": "categorical",
+            "options": [
+                "0",
+                "1"
+            ]
+        },
+        "restecg": {
+            "type": "categorical",
+            "options": [
+                "0",
+                "1",
+                "2"
+            ]
+        },
+        "thalach": {
+            "type": "numerical",
+            "minimum": 71.0,
+            "maximum": 202.0,
+            "default": 153.5
+        },
+        "exang": {
+            "type": "categorical",
+            "options": [
+                "0",
+                "1"
+            ]
+        },
+        "oldpeak": {
+            "type": "numerical",
+            "minimum": 0.0,
+            "maximum": 6.2,
+            "default": 0.8
+        },
+        "slope": {
+            "type": "categorical",
+            "options": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "ca": {
+            "type": "categorical",
+            "options": [
+                "0.0",
+                "1.0",
+                "2.0",
+                "3.0"
+            ]
+        },
+        "thal": {
+            "type": "categorical",
+            "options": [
+                "3.0",
+                "6.0",
+                "7.0"
+            ]
+        }
+    },
+    "CKD": {
+        "age": {
+            "type": "numerical",
+            "minimum": 2.0,
+            "maximum": 90.0,
+            "default": 54.0
+        },
+        "bp": {
+            "type": "numerical",
+            "minimum": 50.0,
+            "maximum": 180.0,
+            "default": 80.0
+        },
+        "sg": {
+            "type": "numerical",
+            "minimum": 1.005,
+            "maximum": 1.025,
+            "default": 1.02
+        },
+        "al": {
+            "type": "numerical",
+            "minimum": 0.0,
+            "maximum": 5.0,
+            "default": 0.0
+        },
+        "su": {
+            "type": "numerical",
+            "minimum": 0.0,
+            "maximum": 5.0,
+            "default": 0.0
+        },
+        "rbc": {
+            "type": "categorical",
+            "options": [
+                "abnormal",
+                "normal"
+            ]
+        },
+        "pc": {
+            "type": "categorical",
+            "options": [
+                "abnormal",
+                "normal"
+            ]
+        },
+        "pcc": {
+            "type": "categorical",
+            "options": [
+                "notpresent",
+                "present"
+            ]
+        },
+        "ba": {
+            "type": "categorical",
+            "options": [
+                "notpresent",
+                "present"
+            ]
+        },
+        "bgr": {
+            "type": "numerical",
+            "minimum": 22.0,
+            "maximum": 490.0,
+            "default": 120.5
+        },
+        "bu": {
+            "type": "numerical",
+            "minimum": 1.5,
+            "maximum": 322.0,
+            "default": 42.0
+        },
+        "sc": {
+            "type": "numerical",
+            "minimum": 0.4,
+            "maximum": 76.0,
+            "default": 1.2
+        },
+        "sod": {
+            "type": "numerical",
+            "minimum": 4.5,
+            "maximum": 150.0,
+            "default": 138.0
+        },
+        "pot": {
+            "type": "numerical",
+            "minimum": 2.5,
+            "maximum": 7.6,
+            "default": 4.3
+        },
+        "hemo": {
+            "type": "numerical",
+            "minimum": 3.1,
+            "maximum": 17.8,
+            "default": 12.6
+        },
+        "pcv": {
+            "type": "numerical",
+            "minimum": 9.0,
+            "maximum": 54.0,
+            "default": 40.0
+        },
+        "wc": {
+            "type": "numerical",
+            "minimum": 2200.0,
+            "maximum": 26400.0,
+            "default": 8100.0
+        },
+        "rc": {
+            "type": "numerical",
+            "minimum": 2.1,
+            "maximum": 6.5,
+            "default": 4.8
+        },
+        "htn": {
+            "type": "categorical",
+            "options": [
+                "no",
+                "yes"
+            ]
+        },
+        "dm": {
+            "type": "categorical",
+            "options": [
+                "no",
+                "yes"
+            ]
+        },
+        "cad": {
+            "type": "categorical",
+            "options": [
+                "no",
+                "yes"
+            ]
+        },
+        "appet": {
+            "type": "categorical",
+            "options": [
+                "good",
+                "poor"
+            ]
+        },
+        "pe": {
+            "type": "categorical",
+            "options": [
+                "no",
+                "yes"
+            ]
+        },
+        "ane": {
+            "type": "categorical",
+            "options": [
+                "no",
+                "yes"
+            ]
+        }
+    }
+}
