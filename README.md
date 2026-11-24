@@ -9,7 +9,7 @@ An AI-based system for predicting three diseases:
 
 ## Project Contents
 - Datasets
-- Jupyter Notebooks
+- GOOGLE COLAB
 - Trained Machine Learning Models
 - Results and Graphs
 - Streamlit Application
